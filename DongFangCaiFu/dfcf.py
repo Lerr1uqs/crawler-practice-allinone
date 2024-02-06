@@ -27,7 +27,6 @@ headers = [th.text.strip() for th in table.find('thead').find('tr').find_all('th
 
 # Extract table rows
 rows = []
-name = [] # 名字+行业+行业排名+四分卫
 attr = {
     "name":"", 
     "industry":"", 
